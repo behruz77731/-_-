@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Magazin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MARS<span>®</span></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Learning</a>
+      <a href="#" class="active">Shop</a>
+    </nav>
+    <button class="post-btn">+ Post yaratish</button>
+  </header>
+
+  <section class="search-section">
+    <h1>🛒 Magazin</h1>
+    <input type="text" id="searchInput" placeholder="search...">
+    <button onclick="searchItems()">click</button>
+    <a href="#" class="history-link">🕒 Haridlar tarixi</a>
+  </section>
+
+  <section id="productList" class="product-list">
+    <!-- Products will be loaded here -->
+  </section>
+
+  <footer>
+    <p>MARS IT School 2022</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

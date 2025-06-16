@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+nav .active {
+  color: orange;
+  font-weight: bold;
+}
+
+.post-btn {
+  border: 2px solid #f4511e;
+  background: white;
+  color: #f4511e;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 30px;
+}
+
+.search-section input {
+  padding: 8px 14px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  background: black;
+  color: white;
+}
+
+.search-section button {
+  background: #000d57;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.history-link {
+  margin-left: auto;
+  color: orange;
+  text-decoration: none;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.product {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.product img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.product p {
+  margin: 4px 0;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
